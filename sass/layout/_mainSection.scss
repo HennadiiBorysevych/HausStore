@@ -10,15 +10,16 @@
 }
 
 .main-content {
-    padding: 270px 60px 100px 60px;
+    padding: 278px 60px 100px 60px;
         background-color: var(--secondary-bg-color);
 }
 
 .main-content__title {
-        font-size: 73px;
+        font-size: 70px;
         line-height: 1.32;
         color: var(--secondary-text-color) ;
         margin-bottom: 34px;
+                opacity: 0.8;
 }
 
 .main-content__text {
@@ -27,10 +28,11 @@
         line-height: 1.78;
         color: var(--secondary-text-color);
         margin-bottom: 46px;
+        opacity: 0.8;
 }
 .main-content__img{
     min-height: 100vh;
-    max-width: 670px;
+    max-width: 686px;
 }
 .btn {
     max-width: 180px;

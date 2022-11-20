@@ -1,0 +1,20 @@
+
+.feedback-wrapper {
+    padding: 50px 60px 40px 60px;
+}
+
+.feedback-list {
+    display: flex;
+    gap: 180px;
+}
+
+.feedback-list__item {
+    text-align: center;
+
+}
+.feedback-list__img{
+    margin: 0 auto;
+}
+.feedback-list__text {
+    margin-bottom: 35px;
+}
