@@ -394,4 +394,77 @@ p {
   line-height: 1.5;
   letter-spacing: 1px;
   text-transform: uppercase;
+}
+
+.section--pic {
+  background-image: url(../../images/seethemood.jpg);
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 34px;
+}
+
+.social-links-wrapper {
+  margin-right: auto;
+  max-width: 550px;
+  background-color: var(--primary-text-color);
+  padding: 40px 70px 20px 70px;
+  margin-bottom: 20px;
+}
+
+.social-links__title {
+  font-weight: 400;
+  font-size: 55px;
+  line-height: 1.45;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+
+.social-links__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 27px;
+}
+
+.social-btn {
+  background-color: var(--secondary-text-color);
+  margin: 0 auto;
+}
+
+.social-links--part {
+  margin-right: auto;
+  max-width: 550px;
+  background-color: var(--primary-text-color);
+  padding: 40px 70px;
+}
+
+.social-links__subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.75;
+  text-align: center;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.social-links__list {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+}
+
+.social-links__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */
