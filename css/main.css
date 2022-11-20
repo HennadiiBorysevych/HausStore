@@ -4,7 +4,7 @@ body {
   font-family: "Roboto", sans-serif;
   font-weight: 400;
   background-color: #FFFFFF;
-  color: #000000;
+  color: var(--primary-text-color);
 }
 
 a,
@@ -47,6 +47,13 @@ p {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Roboto";
+  src: url("./fonts/Roboto-Regular.woff2") format("woff2"), url("./fonts/Roboto-Regular.woff") format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 .container {
   padding: 0 15px;
   margin: 0 auto;
@@ -56,9 +63,9 @@ p {
     width: 480px;
   }
 }
-@media screen and (min-width: 1360px) {
+@media screen and (min-width: 1315px) {
   .container {
-    width: 1360px;
+    width: 1315px;
   }
 }
 
@@ -72,9 +79,81 @@ p {
 }
 
 :root {
+  --primary-text-color: #000000;
   --secondary-text-color: #FFFFFF;
-  --accent-text-color: #D3AD7F;
-  --title-color: #FFFFFF;
-  --primary-bg-color:#191919;
-  --secondary-bg-color: #605D5D;
+  --primary-bg-color:#ffffff;
+  --secondary-bg-color: #996B60;
+}
+
+.header-wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-list {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.nav-item {
+  color: var(--secondary-text-color);
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.section--flex {
+  display: flex;
+}
+
+.container--padding {
+  padding: 0;
+}
+
+.main-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.main-content {
+  padding: 270px 60px 100px 60px;
+  background-color: var(--secondary-bg-color);
+}
+
+.main-content__title {
+  font-size: 73px;
+  line-height: 1.32;
+  color: var(--secondary-text-color);
+  margin-bottom: 34px;
+}
+
+.main-content__text {
+  font-size: 18px;
+  line-height: 1.78;
+  color: var(--secondary-text-color);
+  margin-bottom: 46px;
+}
+
+.main-content__img {
+  min-height: 100vh;
+}
+
+.btn {
+  max-width: 180px;
+  font-size: 12px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #000000;
+  border: 1px solid var(--secondary-text-color);
+  background: transparent;
+  padding: 20px 52px;
 }/*# sourceMappingURL=main.css.map */

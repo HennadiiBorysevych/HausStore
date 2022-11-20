@@ -1,0 +1,33 @@
+.page-header {
+    
+    }
+
+
+.container {}
+
+.header-wrapper {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list {
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+.nav-item {
+    color: var(--secondary-text-color);
+    font-size: 12px;
+    line-height: 1.5;
+    
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.logo {}
