@@ -332,4 +332,33 @@ p {
   font-size: 35px;
   line-height: 1.22;
   margin-bottom: 17px;
+}
+
+.section--bg {
+  background-color: var(--primary-text-color);
+}
+
+.comments-list {
+  display: flex;
+  gap: 165px;
+  padding: 50px 60px;
+}
+
+.comments-list__title {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 17px;
+}
+
+.comments-list__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  text-align: center;
+  color: var(--secondary-text-color);
+  margin-bottom: 10px;
+  opacity: 0.8;
 }/*# sourceMappingURL=main.css.map */
