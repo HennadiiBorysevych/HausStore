@@ -291,7 +291,6 @@ p {
 
 .container--flex {
   display: flex;
-  padding-top: 70px;
   padding-bottom: 60px;
 }
 
@@ -361,4 +360,38 @@ p {
   color: var(--secondary-text-color);
   margin-bottom: 10px;
   opacity: 0.8;
+}
+
+.producers-wrapper {
+  display: flex;
+  padding: 60px;
+}
+
+.producers--part {
+  margin-left: 110px;
+}
+
+.producers__title {
+  font-weight: 400;
+  max-width: 628px;
+  font-size: 46px;
+  line-height: 1.25;
+  margin-bottom: 130px;
+}
+
+.producers__text {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.78;
+  margin-bottom: 35px;
+}
+
+.producers__link {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=main.css.map */
