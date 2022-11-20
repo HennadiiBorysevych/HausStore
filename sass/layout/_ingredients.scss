@@ -1,0 +1,45 @@
+
+.container--flex {
+    display: flex;
+        padding-top: 70px;
+            padding-bottom: 60px;
+}
+.container--flex::before{
+        content: '';
+            width: 80%;
+            height: 1px;
+            position: absolute;
+            top: 0;
+            left: 144px;
+            background: var(--primary-text-color);
+}
+.ingredients-wrapper {
+        margin-right: 55px;
+        padding-top: 80px;
+
+}
+
+.ingredients--part {
+
+    margin-bottom: 26px;
+}
+
+.ingredients__title {
+        font-weight: 400;
+        font-size: 30px;
+        line-height: 1.47;
+        margin-bottom: 20px;
+}
+
+.ingredients__text {
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 1.78;
+}
+
+.ingredients__subtitle {
+        font-weight: 400;
+        font-size: 35px;
+        line-height: 1.22;
+        margin-bottom: 17px;
+}
